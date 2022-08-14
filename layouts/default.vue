@@ -1,7 +1,13 @@
 <template>
-  <div class="h-[98vh] w-full flex flex-col items-center justify-between">
+  <div>
     <TheHeader />
     <slot />
     <TheFooter />
   </div>
 </template>
+
+<style>
+body {
+  @apply bg-neutral-100;
+}
+</style>
